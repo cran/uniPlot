@@ -1,0 +1,7 @@
+importFrom(Defaults, setDefaults, unsetDefaults)
+importFrom(ggplot2, theme_set, theme_get, theme_blank, theme_segment, theme_text, theme_rect, theme_line, update_geom_defaults, aes)
+importFrom(lattice, lattice.options, trellis.par.set, trellis.par.get)
+importFrom(RColorBrewer, brewer.pal)
+importFrom(grid, unit)
+
+export(pal, print_parm, title, uniPlot)
